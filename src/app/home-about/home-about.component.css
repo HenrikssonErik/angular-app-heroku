@@ -1,0 +1,52 @@
+.container {
+  margin-top: 2em;
+}
+
+.calendar-title {
+  padding-top: 2em;
+}
+
+.text {
+  display: -webkit-box;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.text::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 24px;
+  background-color: #fff;
+  z-index: 1;
+}
+
+.text div {
+  background-color: #fff;
+  display: inline;
+  position: relative;
+}
+
+.text div::after {
+  content: "";
+  background-color: #fff;
+  position: absolute;
+  bottom: -24px;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  z-index: 2;
+}
+
+.text a::before {
+  content: "More";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-decoration: underline;
+  z-index: 1;
+}

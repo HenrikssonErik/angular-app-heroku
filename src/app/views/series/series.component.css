@@ -1,0 +1,28 @@
+body {
+  margin: auto;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.small-container {
+  min-height: 95vh;
+  max-width: 100vw;
+  margin-bottom: -5%;
+  vertical-align: middle;
+}
+/* Responsive iFrame */
+.responsive-iframe-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+}
+.responsive-iframe-container iframe/*,
+  .vresponsive-iframe-container object,
+  .vresponsive-iframe-container embed */ {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90%;
+}

@@ -1,0 +1,29 @@
+body {
+  overflow-x: hidden;
+  align-items: middle;
+  min-width: 100vw;
+}
+
+.small-container {
+  min-height: fit-content;
+  max-height: fit-content;
+  min-width: 100%;
+  margin-bottom: 0%;
+  vertical-align: middle;
+  align-self: center;
+}
+/* Responsive iFrame */
+.responsive-iframe-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+}
+.responsive-iframe-container iframe/*,
+    .vresponsive-iframe-container object,
+    .vresponsive-iframe-container embed */ {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

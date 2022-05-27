@@ -1,0 +1,58 @@
+<body>
+  <!--- add link to "pages" instead of # --->
+  <div class="complete-logo">
+    <a href="" style="color: inherit; text-decoration-line: none">
+      <img
+        src="..\..\assets\img\GSS-Logo.png"
+        width="45px"
+        alt="Club Logo"
+        class="align-left"
+        id="logo"
+      />
+      <div class="logo-text">
+        <h1>Göteborgs schacksällskap</h1>
+        <h3>Södra Sveriges äldsta schackklubb sedan 1879</h3>
+      </div>
+    </a>
+  </div>
+  <div class="links">
+    <ul class="nav nav-brand nav-justified">
+      <link rel="stylesheet" />
+      <a class="navbar-brand"> </a>
+      <li class="nav-item first">
+        <a
+          class="nav-link"
+          [routerLink]="['']"
+          [ngClass]="{ 'is-active': isHomeActive == true }"
+          >Hem</a
+        >
+      </li>
+
+      <li class="nav-item">
+        <a
+          class="nav-link"
+          [routerLink]="['/rating']"
+          [ngClass]="{ 'is-active': isMembersActive == true }"
+          >Medlemmar</a
+        >
+      </li>
+
+      <li class="nav-item">
+        <a
+          class="nav-link"
+          [routerLink]="['/calendar']"
+          [ngClass]="{ 'is-active': isCalendarActive == true }"
+          >Kalender</a
+        >
+      </li>
+      <li class="nav-item">
+        <a
+          class="nav-link"
+          [routerLink]="['/series']"
+          [ngClass]="{ 'is-active': isSeriesActive == true }"
+          >Seriespel</a
+        >
+      </li>
+    </ul>
+  </div>
+</body>

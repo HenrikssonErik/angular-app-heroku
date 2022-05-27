@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  position: flex;
+}
+
+.left {
+  flex: 70%;
+  float: left;
+  margin-left: 0;
+  /*background-color: blueviolet;*/
+}
+
+.right {
+  flex: 25%;
+  float: right;
+  padding-right: 3%;
+  /*background-color: yellow;*/
+}
