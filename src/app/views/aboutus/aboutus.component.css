@@ -15,16 +15,14 @@ h1 {
 }
 
 .row {
-  width: 100vw;
+  width: 90vw;
   display: flex;
 }
 
 .column-about {
   padding: 5em;
   float: left;
-  flex-shrink: 1;
-  flex: 55%;
-  padding-left: 16em;
+  padding-left: 10em;
 }
 
 .column-contact {

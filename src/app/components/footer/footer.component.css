@@ -6,6 +6,8 @@ body {
   margin-top: 10em;
   bottom: 0;
   display: inline-block;
+  margin-left: 0%;
+  margin-right: 0%;
 }
 
 ul {
@@ -24,8 +26,6 @@ ul {
 
 .row {
   width: 100vw;
-  padding-left: 5em;
-  padding-right: 5em;
   display: flex;
   margin-top: 2.5em;
   margin-bottom: 4em;
@@ -43,7 +43,7 @@ ul {
 
 .column {
   float: left;
-  width: 200px;
+  width: 30em;
   text-align: center;
 }
 
@@ -53,9 +53,6 @@ ul {
   width: 30em;
 }
 
-.column + .column {
-  margin-left: 2%;
-}
 
 iframe {
   margin-top: 2em;
